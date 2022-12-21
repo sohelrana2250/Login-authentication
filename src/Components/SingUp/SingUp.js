@@ -79,7 +79,7 @@ const SingUp = () => {
                                 <label className="label">
                                     <span className="label-text">Name</span>
                                 </label>
-                                <input type="text" name='name' placeholder="Name" className="input input-bordered textarea textarea-success" />
+                                <input type="text" name='name' placeholder="Name" className="input input-bordered textarea textarea-success " />
                             </div>
 
 
