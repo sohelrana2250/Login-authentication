@@ -24,7 +24,7 @@ const HomePage = () => {
     const menuItem = <React.Fragment>
         <li className='font-bold text-rose-600 text-xl'><Link>{user?.displayName}</Link></li>
         <li><Link className='btn btn-outline btn-primary ml-3' to='/'>Home</Link></li>
-        <li><Link className='btn btn-outline btn-primary  ml-3' to='/'>Contact</Link></li>
+        <li><Link className='btn btn-outline btn-primary  ml-3' to='/register'>Register</Link></li>
 
 
         {
@@ -72,7 +72,7 @@ const HomePage = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to='/contectMe' className="btn btn-outline btn-success">Conatct Me</Link>
+                {/* <Link to='/contectMe' className="btn btn-outline btn-success">Conatct Me</Link> */}
             </div>
         </div>
     );

@@ -10,7 +10,7 @@ import Login from './Components/Login/Login';
 import UserContext from './context/UserContext';
 import Home from './Components/HomePage/Home';
 import About from './Components/About/About';
-import ContectMe from './Components/ContactMe/ContectMe';
+import Register from './Components/RegisterPage/Register';
 
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
           path: '/about', element: <About></About>
         },
         {
-          path: '/contectMe', element: <ContectMe></ContectMe>
+          path: '/register', element: <Register></Register>
         }
       ]
 
